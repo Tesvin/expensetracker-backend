@@ -18,7 +18,7 @@ readdirSync("./routes").map((route) =>
 );
 
 app.get("/", (req, res) => {
-  res.setHeader("Access-Control-Allow-Credentials","true")
+  res.setHeader("Access-Control-Allow-Credentials","true");
   res.send("Hello World");
 });
 
